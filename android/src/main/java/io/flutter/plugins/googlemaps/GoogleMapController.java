@@ -96,25 +96,25 @@ final class GoogleMapController
     switch (activityState.get()) {
       case STOPPED:
         mapView.onCreate(null);
-        mapView.onStart();
+//        mapView.onStart();
         mapView.onResume();
         mapView.onPause();
-        mapView.onStop();
+//        mapView.onStop();
         break;
       case PAUSED:
         mapView.onCreate(null);
-        mapView.onStart();
+//        mapView.onStart();
         mapView.onResume();
         mapView.onPause();
         break;
       case RESUMED:
         mapView.onCreate(null);
-        mapView.onStart();
+//        mapView.onStart();
         mapView.onResume();
         break;
       case STARTED:
         mapView.onCreate(null);
-        mapView.onStart();
+//        mapView.onStart();
         break;
       case CREATED:
         mapView.onCreate(null);
@@ -263,7 +263,7 @@ final class GoogleMapController
     if (disposed || activity.hashCode() != registrarActivityHashCode) {
       return;
     }
-    mapView.onStart();
+//    mapView.onStart();
   }
 
   @Override
@@ -287,7 +287,7 @@ final class GoogleMapController
     if (disposed || activity.hashCode() != registrarActivityHashCode) {
       return;
     }
-    mapView.onStop();
+//    mapView.onStop();
   }
 
   @Override
