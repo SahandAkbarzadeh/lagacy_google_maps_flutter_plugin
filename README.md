@@ -22,6 +22,13 @@ The API exposed by this plugin is not yet stable, and we expect some breaking ch
 
 To use this plugin, add `google_maps_flutter` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
+```yaml
+google_maps_flutter:
+    git:
+      url: https://github.com/SahandAkbarzadeh/lagacy_google_maps_flutter_plugin.git
+      ref: master
+```
+
 ## Getting Started
 
 Get an API key at <https://cloud.google.com/maps-platform/>.
