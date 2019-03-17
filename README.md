@@ -25,7 +25,7 @@ To use this plugin, add `google_maps_flutter` as a [dependency in your pubspec.y
 ```yaml
 google_maps_flutter:
     git:
-      url: https://github.com/SahandAkbarzadeh/lagacy_google_maps_flutter_plugin.git
+      url: https://github.com/SahandAkbarzadeh/legacy_google_maps_flutter_plugin.git
       ref: master
 ```
 
